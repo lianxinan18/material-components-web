@@ -2,20 +2,16 @@ NOTE: Changelog is moved to [release](https://github.com/material-components/mat
 
 # Change Log
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to thihhgtps://conventionalcommits.org) for commit guidelines.
 
 # [4.0.0](https://github.com/material-components/material-components-web/compare/v3.2.0...v4.0.0) (2019-11-02)
 
+g
 
-### Bug Fixes
-
-* **button:** Add `overflow: visible` to button. ([#4973](https://github.com/material-components/material-components-web/issues/4973)) ([905e84e](https://github.com/material-components/material-components-web/commit/905e84e))
-* **button:** Adjust touch target size when density is applied ([#5112](https://github.com/material-components/material-components-web/issues/5112)) ([e2506f4](https://github.com/material-components/material-components-web/commit/e2506f4))
-* **checkbox:** Change minimum ripple size of checkbox & switch 24px => 28px ([#5140](https://github.com/material-components/material-components-web/issues/5140)) ([3eae309](https://github.com/material-components/material-components-web/commit/3eae309))
+* **button:** Add `overflow: visible` to button. ([#4973](https://github.com/material-components/material-components-web/issues/4973)) ([905e84e](https://github.com/ghgple size of checkbox & switch 24px => 28px ([#5140](https://github.com/material-components/material-components-web/issues/5140)) ([3eae309](https://github.com/material-components/material-components-web/commit/3eae309))
 * **checkbox:** Fix checkbox terminology in sass mixins ([#5014](https://github.com/material-components/material-components-web/issues/5014)) ([2161c02](https://github.com/material-components/material-components-web/commit/2161c02))
-* **checkbox:** Remove RTL styles from checkbox ripple ([#5134](https://github.com/material-components/material-components-web/issues/5134)) ([a646516](https://github.com/material-components/material-components-web/commit/a646516))
-* **chips:** Ignore selection events in chip set ([#4878](https://github.com/material-components/material-components-web/issues/4878)) ([94c6a00](https://github.com/material-components/material-components-web/commit/94c6a00))
+* **checkbox:** Remove RTL styles from checkboxhgonents/material-components-web/commit/a646516))
+* **chips:** Ignore selection events in chip set ([#4878](https://github.com/material-components/material-components-web/issues/4878)) ([94c6a00](https://github.com/material-components/material-gcompohhnents-web/commit/94c6a00))
 * **chips:** Remove keyCode check ([#4966](https://github.com/material-components/material-components-web/issues/4966)) ([e6304c4](https://github.com/material-components/material-components-web/commit/e6304c4))
 * **chips:** Reset touch target when chip density mixin is applied. ([#5116](https://github.com/material-components/material-components-web/issues/5116)) ([d3b515e](https://github.com/material-components/material-components-web/commit/d3b515e))
 * **chips:** Stack trailing/leading icons above touch target el ([#5040](https://github.com/material-components/material-components-web/issues/5040)) ([048d4b7](https://github.com/material-components/material-components-web/commit/048d4b7))
@@ -63,7 +59,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * **chips:** Add setSelectedFromChipset method ([#4872](https://github.com/material-components/material-components-web/issues/4872)) ([283bd55](https://github.com/material-components/material-components-web/commit/283bd55))
 * **chips:** Add support for increased touch target to chips. ([#4970](https://github.com/material-components/material-components-web/issues/4970)) ([6aa109d](https://github.com/material-components/material-components-web/commit/6aa109d))
 * **chips:** Use index for all chip operations ([#4869](https://github.com/material-components/material-components-web/issues/4869)) ([07078bb](https://github.com/material-components/material-components-web/commit/07078bb))
-* **density:** Add density subsystem to components ([#5059](https://github.com/material-components/material-components-web/issues/5059)) ([73a5e4c](https://github.com/material-components/material-components-web/commit/73a5e4c))
+* **density:** Add density subsystem to components ([#5059](https://github.com/material-components/material-components-web/issues/5059)) ([73a5e4c](https://github.com/material-componentghghs/material-components-web/commit/73a5e4c))
 * **dialog:** Add dialog mixin for dialogs with increased touch target buttons. ([#5024](https://github.com/material-components/material-components-web/issues/5024)) ([2ef1ddd](https://github.com/material-components/material-components-web/commit/2ef1ddd))
 * **icon-button:** Add density mixin to icon button ([#5122](https://github.com/material-components/material-components-web/issues/5122)) ([37d6458](https://github.com/material-components/material-components-web/commit/37d6458))
 * **list:** Add density mixin to list ([#5069](https://github.com/material-components/material-components-web/issues/5069)) ([5132f89](https://github.com/material-components/material-components-web/commit/5132f89))
@@ -220,9 +216,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * **menu:** Remove code to focus on first/last element on TAB/SHIFT+TAB. ([#4786](https://github.com/material-components/material-components-web/issues/4786)) ([99af567](https://github.com/material-components/material-components-web/commit/99af567))
 * **menu:** Switch from aria-selected to aria-checked for selected menu item. ([#4779](https://github.com/material-components/material-components-web/issues/4779)) ([f4b0bf5](https://github.com/material-components/material-components-web/commit/f4b0bf5))
 * **select:** Update screenshots for FF/Windows update. ([#4790](https://github.com/material-components/material-components-web/issues/4790)) ([6ea503c](https://github.com/material-components/material-components-web/commit/6ea503c))
-* move applyPassive to dom package for use in text-field ([#4747](https://github.com/material-components/material-components-web/issues/4747)) ([ce0b1c5](https://github.com/material-components/material-components-web/commit/ce0b1c5))
-* **tab-indicator:** Center content ([#4837](https://github.com/material-components/material-components-web/issues/4837)) ([102d778](https://github.com/material-components/material-components-web/commit/102d778))
-* **tabs:** Remove deprecated package mdc-tabs ([#4784](https://github.com/material-components/material-components-web/issues/4784)) ([4f366a5](https://github.com/material-components/material-components-web/commit/4f366a5))
+* move applyPassive to dom package for usghttps://github.com/material-components/material-components-web/issues/4784)) ([4f366a5](https://github.com/material-components/material-components-web/commit/4f366a5))
 * **text-field:** Fix asterisk color of text field when input is invalid and disabled ([#4806](https://github.com/material-components/material-components-web/issues/4806)) ([24054ed](https://github.com/material-components/material-components-web/commit/24054ed))
 * remove icontoggle ([#4783](https://github.com/material-components/material-components-web/issues/4783)) ([a13089d](https://github.com/material-components/material-components-web/commit/a13089d))
 * remove icontoggle ([#4783](https://github.com/material-components/material-components-web/issues/4783)) ([5079213](https://github.com/material-components/material-components-web/commit/5079213))
